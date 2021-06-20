@@ -1,0 +1,28 @@
+/* button */
+#button-offer{padding:15px 0;background:#000;}
+.btn-offer:focus,.btn-offer:active{color:#fff;}
+.btn-watch{background-color:#c00;}
+.btn-download{background-color:#1ea64b;}
+.btn-offer{outline:none!important;color:#fff;padding:15px 20px 15px 70px;text-decoration:none;border-radius:px;font-family:Oswald,Sans-serif;font-weight:700;letter-spacing:1px;text-shadow:0 1px 1px #000;position:relative;text-transform:uppercase;margin:2px;}
+.btn-bg{color:#fff;display:inline-block;position:absolute;width:30px;height:54px;top:0px;left:-1px;background-color:#333;border-radius:3px 0 0 3px}
+.btn-bg:before{background-color:#9C360E;content:"";position:absolute;top:8px;width:38px;height:38px;background:inherit;border:inherit;border-left-color:transparent;border-bottom-color:transparent;border-radius:0 4px 0 0;-webkit-border-radius:0 4px 0 0;-moz-border-radius:0 4px 0 0;transform:rotate(45deg);-webkit-transform:rotate(45deg);-moz-transform:rotate(45deg);-o-transform:rotate(45deg);-ms-transform:rotate(45deg);left:10px;border-right:1px solid;border-top:1px solid}
+.btn-bg .icon{position:relative;top:16px;left:7px}
+.btn-watch:hover{color:#fff;background-color:#96111f;}
+.btn-download:hover{color:#fff;background-color:#14701a;}
+/* Button */
+.btn{border:0;}
+
+@media (max-width: 479px) {
+    .btn-offer{display:block;width:100%;margin-bottom:2px;padding-left:20px;}
+}
+@media (max-width: 767px) {
+	#button-server{padding-bottom: 20px;}
+	.backuptitle {font-size: 27px;padding: 0 15px;}
+	.col-xs-6.col-sm-6.col-md-6{display:none;}
+	.container-mobile{display:inline;}
+	.col-xs-3{width: 50%;margin-bottom: 10px;margin-top: 10px;}
+}
+@media (max-width: 992px ) {
+    [class*="col-0"] {float:left;display:inline-block;vertical-align:baseline;}
+@media (min-width: 992px ) 
+}

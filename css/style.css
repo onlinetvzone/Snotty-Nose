@@ -1,0 +1,52 @@
+.media-heading a{
+ text-decoration:none;
+ color:gold; 
+}.main{background:#151515 url("https://i.imgur.com/EjNdCwX.jpg") repeat-y scroll 0 0;padding:05px 0 70px;color:#a1a1a1;}
+.footer{background:rgba(0, 0, 0, 0) url("https://i.imgur.com/TXExaVb.jpg") no-repeat scroll 50% 100%;padding:20px 15px;position:relative;color:#9da6b1;}
+.footer .nav > li{display:inline-block;}
+.footer .nav > li > a{padding:0px 15px;}
+.cont_design{background:rgba(0, 0, 0, 0) url("https://i.imgur.com/HPSohxr.png") repeat scroll 50% 0/cover;padding:28px;}
+.cont_design_title{color:#fff;font-size:26px;line-height:1.2em;margin:0;overflow:hidden;}
+.dropdown-submenu{position:relative;}
+.dropdown-submenu .dropdown-menu{top:0;left:100%;margin-top:-1px;}
+.caret-right{border-bottom:4px solid transparent;border-top:4px solid transparent;border-left:4px solid;display:inline-block;height:0;vertical-align:middle;width:0;}
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img{margin:auto;}
+.pagetop{background:rgba(0, 0, 0, 0) url("https://i.imgur.com/47suxBT.jpg") no-repeat scroll 50% 0/cover;padding:25px 0;}
+.pagebottom{color:#fff;min-height:300px;}
+.navbar{margin-bottom:0;z-index:99;border-radius:0;}
+.carousel-caption{position:relative;left:0%;right:0%;bottom:0px;z-index:10;padding-top:0px;padding-bottom:0px;color:#000;text-shadow:none;}
+.carousel{position:relative;}
+.controllers{position:absolute;top:0px;}
+.carousel-control.left,
+.carousel-control.right{background-image:none;}
+.vcenter{display:inline-block;vertical-align:middle;}
+.info_text{text-align:left;}
+.slider_title{color:#fff;font-family:Arial,Helvetica,sans-serif;font-size:44px;letter-spacing:-2px;line-height:100%;margin-bottom:10px;}
+.slider_txt{color:#fff;font-size:20px;letter-spacing:-1px;line-height:1.2em;margin-bottom:30px;}
+.carousel_button{background:rgba(0, 0, 0, 0) url("https://i.imgur.com/DmfnX5g.png") no-repeat scroll 100% -93px;display:inline-block;height:93px;padding:0 90px 0 0;position:relative;text-decoration:none;width:50%;}
+.carousel_button span{background:rgba(0, 0, 0, 0) url("https://i.imgur.com/DmfnX5g.png") no-repeat scroll 0 0;color:#fff;display:block;font-size:22px;height:93px;line-height:100%;padding:20px 0 0 18px;position:relative;}
+.carousel_button span strong{color:#515151 !important;display:block;font-size:12px;font-weight:normal !important;text-transform:uppercase !important;}
+.carousel_button:hover{text-decoration:none;background:rgba(0, 0, 0, 0) url("https://i.imgur.com/DmfnX5g.png") no-repeat scroll 100% -279px;}
+.carousel_button:hover span{background:rgba(0, 0, 0, 0) url("https://i.imgur.com/DmfnX5g.png") no-repeat scroll 0 -186px;}
+@media all and (max-device-width:1024px){.carousel_button{width:65%;}
+.carousel_button span{padding:25px 0 0 10px;font-size:20px;}
+}
+@media all and (max-device-width:640px){.slider_title{font-size:30px;margin-bottom:5px;}
+.slider_txt{font-size:16px;margin-bottom:10px;}
+.img-thumbnail{max-height:170px;}
+.carousel_button{padding:0 70px 0 0;width:50%;}
+.carousel_button span{padding:25px 0 0 10px;font-size:16px;}
+.carousel_button span strong{font-size:10px;}
+.info_text{margin-left:10px;margin-right:10px;text-align:center;}
+.item{text-align:center;}
+#myCarousel{padding:0px;}
+.navbar-nav .open .dropdown-menu > .dropdown-submenu > .dropdown-menu > li > a{padding:5px 15px 5px 35px;}
+.footer{text-align:center;}
+.cont_design{text-align:center;}
+.visible-xs-block{margin-bottom:10px;}
+}
+@media all and (max-device-width:480px){.carousel_button{width:65%;}
+.cont_design_title{font-size:18px;}
+.cont_design span{font-size:14px;}
+}
